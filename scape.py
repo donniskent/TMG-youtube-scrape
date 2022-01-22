@@ -51,7 +51,7 @@ print("Driver quit")
 
 
 
-final_dict = [{set_of_links[i]:set_of_titles[i]} for i in range(len(set_of_links))]
+final_dict = [{"title":set_of_titles[i], "link":set_of_links[i]} for i in range(len(set_of_links))]
 print(final_dict)
 
 
